@@ -4,4 +4,5 @@ This repository supports a data pipeline implementing a medallion architecture u
 
 Sub-repositories:
 * `dbt` - the dbt projects and transformations
+* `mwaa` - infrastructure to implement Airflow on AWS (MWAA)
 * `snowflake` - infrastructure to implement Snowflake as the data warehouse
