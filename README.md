@@ -1,6 +1,6 @@
 # dj-reed
 
-This repository supports a data pipeline implementing a medallion architecture using dbt transformations and warehousing data in Snowflake originally from Spotify API
+This repository supports a data pipeline to ingest data from Spotify API, transform data using dbt, and warehouse data in Snowflake - all orchestrated by Airflow and deployed on AWS using CDK
 
 Sub-repositories:
 * `dbt` - the dbt projects and transformations
